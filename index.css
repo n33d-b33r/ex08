@@ -367,7 +367,7 @@ flex-direction: column;
     justify-content: space-around;
 }
 
-.button7 {
+.button7 .button7 {
     font-weight: 700;
     color: white;
     text-decoration: none;
@@ -375,7 +375,7 @@ flex-direction: column;
     border-radius: 8px;
     background: rgb(80, 80, 80);
     box-shadow: 0 -3px rgb(35, 34, 34) inset;
-    transition: 0.2s;
+    transition: 0.2s; width: 200 px;
 }
 .button7:hover { background: rgb(131, 131, 131); }
 .button7:active {
