@@ -1,0 +1,368 @@
+/*Переделки*/
+.Nazva_razdel
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Helvetica;
+    justify-content: center;
+}
+
+.btn-primary, btn
+{
+    background: #1a1e21;
+}
+
+.button7 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+
+    background: rgba(149, 150, 193, 0);
+    box-shadow: 0 -3px rgb(35, 34, 34) inset;
+    transition: 0.2s;
+}
+.button7:hover { background: rgba(149, 150, 193, 0); }
+.button7:active {
+    background: rgba(149, 150, 193, 0);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mb-3, .form-check
+{
+    margin: 10px;
+}
+
+.tablica_individ
+{
+    padding: 10px;
+    color: #fff;
+    backGround: rgba(149, 150, 193, 0);
+
+    /*opacity: 0.6;*/
+    width: 50em;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+
+}
+.tablica_individ_2
+{
+    padding: 10px;
+    color: #fff;
+    backGround: rgba(149, 150, 193, 0);
+
+    /*opacity: 0.6;*/
+    width: 60em;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tablica_individ_3
+{
+    padding: 10px;
+    color: #fff;
+    backGround: rgba(149, 150, 193, 0);
+
+    /*opacity: 0.6;*/
+    width: 80em;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+.tablica_individ_4
+{
+    padding: 10px;
+    color: #fff;
+    backGround: rgba(149, 150, 193, 0);
+
+    /*opacity: 0.6;*/
+    max-width: 30em;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+.tablica_individ_5
+{
+    padding: 10px;
+    color: #fff;
+    backGround: rgba(149, 150, 193, 0);
+
+    /*opacity: 0.6;*/
+    max-width: 30em;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.polojen_knop
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Helvetica;
+    justify-content: end;
+}
+.polojen_knop_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Helvetica;
+    justify-content: center;
+}
+
+.button7_individ
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Helvetica;
+    justify-content: center;
+    width: 200px;
+}
+
+.button7_individ_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Helvetica;
+    justify-content: center;
+    width: 160px;
+}
+
+.button7_individ_3
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Helvetica;
+    justify-content: center;
+    width: 100%;
+}
+.button7_individ_4
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: Helvetica;
+    justify-content: center;
+}
+
+.form-text
+{
+    color: black;
+}
+
+
+.Dla_Razdel_V_Opusan
+{
+    width: 50%;
+}
+
+.Obh_yheica
+{
+  display: flex;/*Что бы использовать flex box (распределяет две секции кнопок на две части)*/
+flex-wrap: wrap;
+  color: #fff;/*Цвет текста*/
+  font-family: Helvetica;/*Шрифт*/
+  justify-content: center;
+  /*opacity: 0.6;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Soderj_yheicu
+{
+  padding: 20px;
+
+      text-align: start 
+}
+
+.Stroka_s_razdel_50
+{
+  padding: 10px ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: start;
+}
+
+.gh1
+{
+    color: black;
+ min-width: 250px;
+width: 45%;
+padding-top: 3px;
+padding-bottom: 3px;
+
+}
+
+.gh2
+{
+ min-width: 250px;
+width: 45%;
+padding-top: 3px;
+padding-bottom: 3px;
+    color: black;
+}
+
+
+.gh11
+{
+    color: black;
+ min-width: 100px;
+width: 45%;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+.gh22
+{
+ min-width: 100px;
+width: 45%;
+padding-top: 3px;
+padding-bottom: 3px;
+    color: black;
+}
+
+.ocryglen_ramcu
+{
+
+}
+body {
+    background-image: url(./image/ppr.png);
+    background-attachment: fixed;
+}
+
+.tablica_cot
+{
+color: rgb(0, 0, 0);/*Цвет текста*/
+backGround: rgb(135, 149, 187);
+
+box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+width: 70em;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+
+
+
+.Osnov_cv_tx{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    color: rgb(0, 0, 0);/*Цвет текста*/
+    font-family: Helvetica;/*Шрифт*/
+    /*opacity: 0.6;*/
+    }
+
+
+    .tabb1
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+     
+    }
+
+    .tabb1_individ
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 100%;
+        padding-bottom: 50px;
+      }
+
+
+    .tabb2
+    {
+      padding: 10px;
+      text-align: center 
+    }
+    .tabb22
+    {
+      padding: 10px;
+     
+    }
+    .tabb3
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+
+
+.Mesto_dla_raspol_obektov_po_hurune
+{
+    padding: 10px;
+    color: #fff;
+    backGround: rgba(149, 150, 193, 0);
+
+    width: 100%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.rodutel_dla_knopku
+{
+    position:relative;
+}
+.button_prujat_vnuz
+{
+    position:absolute; /* добавили */
+	bottom:1px;
+}
+
+.polojen_pagunatora
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text_color
+{
+    color: black;
+}
+
+.bacgraun_color
+{
+    backGround: rgba(149, 150, 193, 0);
+}
+
+.border1
+{
+    border: 0px;
+}
+
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    backGround: rgba(0, 0, 0, 0.726);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: Helvetica;
+    align-items: center;
+    z-index: 1000; 
+    width: 99%;
+
+}
+
+.futer_section
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.futer_polojen
+{
+    display: flex;
+    justify-content: space-around;
+}
